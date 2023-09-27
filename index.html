@@ -10,6 +10,20 @@
 </head>
 <body>
 
+
+    <!--OFFCANVAS-->
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          ...
+        </div>
+      </div>
+
+
     <!--app-->
     
     <div class="app">
@@ -88,14 +102,26 @@
 
             <!--app-content-->
 
-            <div class="app-content debug">
+            <div class="app-content">
 
                 <!--app-content-top-->
 
-                <div class="app-content-top">
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                <div class="app-content-top text-white py-3">
+                    <div class="container-fluid">
+                        <div class="row flex-column flex-md-row row-gap-2">
+                            <div class="col col-lg-2 d-flex align-items-center gap-2 order-md-2">
+                                <span>Nuovo Studente</span>
+                                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></button>
+                            </div>
+                            <div class="col col-lg-6">
+                                <span class="fs-3">Boolean</span>
+                            </div>
+                            <div class="col col-lg-4 d-flex flex-column order-md-1">
+                                <span>Studenti online negli ultimi 30 minuti</span>
+                                <span class="fs-3">125</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <!--app-content-bottom-->
@@ -108,6 +134,7 @@
                         </div>
                     </div>
                 </div>
+
             </div>
 
         </main>       
