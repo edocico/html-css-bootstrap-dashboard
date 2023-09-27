@@ -12,6 +12,9 @@
 
 .app-sidebar {
     width: 68px;
+    background-image: url(../img/sidebar-bg.png);
+    background-size: cover;
+    background-color: #051E34;
 }
 
 .app-content {
@@ -38,6 +41,19 @@ li {
     border-radius: 5px;
     background-color: #E5E5E5;
 }
+
+/* APP SIDEBAR */
+
+aside a {
+    text-decoration: none;
+    color: white;
+}
+
+aside a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+
 
 /* DEBUG */
 
