@@ -1,0 +1,45 @@
+.app {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.app-main {
+    flex-grow: 1;
+    display: flex;
+}
+
+.app-sidebar {
+    width: 68px;
+}
+
+.app-content {
+    flex-grow: 1;
+}
+
+
+/* MEDIA QUERY */
+
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+    .app-sidebar {
+        width: 150px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1400px) {
+
+}
