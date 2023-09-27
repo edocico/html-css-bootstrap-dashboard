@@ -18,6 +18,34 @@
     flex-grow: 1;
 }
 
+li {
+    list-style: none;
+}
+
+/* APP HEADER */
+
+.app-header figure, ul {
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+
+.logo-mobile {
+    width: 60px;
+}
+
+.search-bar {
+    border-radius: 5px;
+    background-color: #E5E5E5;
+}
+
+/* DEBUG */
+
+.debug {
+    background-color: red;
+    border: 1px solid black;
+    padding: 20px 20px;
+}
 
 /* MEDIA QUERY */
 
