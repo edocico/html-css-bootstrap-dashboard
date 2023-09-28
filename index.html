@@ -13,13 +13,75 @@
 
     <!--OFFCANVAS-->
 
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas offcanvas-end ocw" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+          <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
-          ...
+            <div class="container">
+                <form class="row row-gap-2" action="POST">
+                    <div class="col-6 d-flex flex-column">
+                        <p>Nome</p>
+                        <input type="text">
+                    </div>
+                    <div class="col-6 d-flex flex-column">
+                        <p>Cognome</p>
+                        <input type="text">
+                    </div>
+                    <div class="col-6 d-flex flex-column">
+                        <p>Email</p>
+                        <input type="email">
+                    </div>
+                    <div class="col-6 d-flex flex-column">
+                        <p>Password</p>
+                        <input type="password">
+                    </div>
+                    <div class="col-6 d-flex flex-column">
+                        <p>Indirizzo Email</p>
+                        <input type="email">
+                    </div>
+                    <div class="col-6 d-flex flex-column">
+                        <p>Password</p>
+                        <input type="password">
+                    </div>
+                    <div class="col-12 d-flex flex-column">
+                        <p>Indirizzo</p>
+                        <input type="text">
+                    </div>
+                    <div class="col-6 d-flex flex-column">
+                        <p>Città</p>
+                        <input type="text">
+                    </div>
+                    <div class="col-4 d-flex flex-column">
+                        <p>Stato</p>
+                        <select name="Stato" id="Stato">
+                            <option value="option1">option1</option>
+                            <option value="option2">option2</option>
+                            <option value="option3">option3</option>
+                            <option value="option4">option4</option>
+                        </select>
+                    </div>
+                    <div class="col-2 d-flex flex-column">
+                        <p>CAP</p>
+                        <input type="number">
+                    </div>
+                    <div class="col-12 d-flex flex-column">
+                        <p>Foto</p>
+                        <input class="choose-file" type="file">            
+                    </div>
+                    <div class="col-12 d-flex gap-2">
+                        <input type="checkbox">
+                        <span>Seleziona per proseguire</span>
+                    </div>
+                    <div class="col-1">
+                        <button class="salva">Salva</button>
+                    </div>
+                    <div class="col-1">
+                        <input class="reset" type="reset">
+                    </div>
+                </form>
+            </div>
         </div>
       </div>
 
@@ -127,7 +189,7 @@
                 <!--app-content-bottom-->
 
                 <div class="app-content-bottom">
-                    <div class="container">
+                    <div class="container-fluid">
                         <div class="row">
                             <div class="col-12 col-lg-8"></div>
                             <div class="col-12 col-lg-4"></div>

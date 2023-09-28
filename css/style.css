@@ -63,6 +63,35 @@ aside a:hover {
     background-color: #1B72E8;
 }
 
+.app-content-top button {
+    border: 1px solid white;
+}
+
+
+/* OFFCANVAS */
+
+#offcanvasRight {
+    width: 100%;
+}
+
+.choose-file {
+    border: 1px solid #CDCDCD;
+}
+
+#offcanvasRight input {
+    border-radius: 5px;
+    border: 1px solid #CDCDCD;
+}
+
+.salva {
+    color: white;
+    background-color: #1B72E8;
+    border-radius: 5px;
+}
+
+.reset {
+    background-color: #FFC105;
+}
 
 
 /* APP CONTENT BOTTOM */
@@ -73,7 +102,7 @@ aside a:hover {
 
 .debug {
     background-color: red;
-    border: 1px solid black;
+    border: 1px solid;
     padding: 20px 20px;
 }
 
@@ -91,6 +120,10 @@ aside a:hover {
 @media (min-width: 992px) {
     .app-sidebar {
         width: 150px;
+    }
+
+    #offcanvasRight {
+        width: 800px;
     }
 }
 
