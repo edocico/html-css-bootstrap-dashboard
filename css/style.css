@@ -96,6 +96,12 @@ aside a:hover {
 
 /* APP CONTENT BOTTOM */
 
+/* ACCORDION */
+
+.accordion-body {
+    font-size: 14px;
+}
+
 
 
 /* DEBUG */
