@@ -8,6 +8,7 @@
 .app-main {
     flex-grow: 1;
     display: flex;
+    overflow: hidden;
 }
 
 .app-sidebar {
@@ -101,6 +102,20 @@ aside a:hover {
 .accordion-body {
     font-size: 14px;
 }
+
+/* TABLE */
+
+table img {
+    width: 35px;
+}
+
+td a {
+   color: #6C757D;
+   border: 1px solid #6C757D;
+   border-radius: 5px;
+   padding: 5px 5px; 
+}
+
 
 
 
