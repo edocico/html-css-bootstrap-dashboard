@@ -16,6 +16,7 @@
     background-image: url(../img/sidebar-bg.png);
     background-size: cover;
     background-color: #051E34;
+    flex-shrink: 0;
 }
 
 .app-content {
@@ -34,6 +35,13 @@ li {
     padding-left: 0;
 }
 
+.search-icon {
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    font-size: 20px;
+}
 
 .logo-mobile {
     width: 60px;
